@@ -1,0 +1,19 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: 山东道路运输政务管理系统
+  i18n: 山东道路运输政务管理系统
+  gh_user: 
+  repo: 
+  # url: http://test.sdyzgl.com/
+  img: /static/assets/img/icon/yz.ico
+  desc: 主框架：Angular1.X、Bootstrap、concrete1.x(springDataJpa)
+
+- name: 山东省包车管理系统
+  i18n: 山东省包车管理系统
+  gh_user: 
+  repo: 
+  # url: http://bcp.rtocc.com/
+  img: /static/assets/img/icon/bc.ico
+  desc: 主框架：vue2、amazeui、concrete2.x(springDataJpa)
+

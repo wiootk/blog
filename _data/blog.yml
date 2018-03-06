@@ -1,0 +1,31 @@
+# blog page sections
+- name: Blog
+  href: /blog/
+
+- name: 前端
+  href: /front/
+  
+- name: 后端
+  href: /back/
+  
+- name: 移动端
+  href: /mobile/
+  
+- name: 数据库
+  href: /database/
+ 
+- name: 机器学习
+  href: /machineLearn/
+ 
+# - name: 算法
+#   href: /leetCode/
+ 
+- name: 杂七杂八
+  href: /mixed/
+  
+#- name: Python
+#  href: /python/
+#
+#- name: Linux
+#  href: /linux/
+

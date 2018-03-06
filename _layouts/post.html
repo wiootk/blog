@@ -1,0 +1,135 @@
+---
+layout: default
+---
+
+<div class="wrapper wrapper-content  animated fadeInRight article">
+    <div class="row" id="toTop">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content" >
+                    <div class="pull-right">
+                    	{% for category in page.categories %}
+                        	<a class="btn btn-white btn-xs" href="{{ category | downcase | prepend: '/' | prepend: site.baseurl }}">{{ category }}</a>
+                        {% endfor %}
+                    </div>
+                    <div class="text-center article-title">
+                    <span class="text-muted"><i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }}</span>
+                        <h1>
+                            {{ page.title }}
+                        </h1>
+                    </div>
+
+
+
+
+                    <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script> -->
+                    <script type="text/javascript" src="{{baseurl}}/blog/static/js/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                    <script src="{{baseurl}}/blog/static/js/toc.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $('#Mytoc').toc();
+                        }); 
+                    </script>
+                    <div class="row" >
+                        <div class="col-md-2">
+                            <!-- <div id="Mytoc" style='bottom: 20px;position: fixed;'></div> -->
+                            <div id="Mytoc" ></div>
+                        </div>
+                        <div class="col-md-10">{{ content }}</div>
+                    </div>
+
+
+                   
+                    <hr>
+                    <div class="row" >
+                        <div class="col-md-6">
+                                <h5 style="display: inline;">Tags:</h5>
+                                {% for tag in page.tags %}
+                                    <button class="btn btn-white btn-xs" type="button">{{ tag }}</button>
+                                {% endfor %}
+                        </div>
+                        <div class="col-md-6">
+                            <div class="small text-right">
+                                <div>
+                                {% if site.disqus %}
+                                <i class="fa fa-comments-o"> </i> <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ page.url }}">0</span> comments
+                                {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="row" id="toFoot">
+                        <div class="col-lg-12">
+                            <!-- donate -->
+							<!--
+                            {% if site.donation %}
+                            {% include donate.html %}
+                            {% endif %}
+							
+                            <br>-->
+                            <!-- share -->
+                            {% include share.html %}
+                            <br>							
+                            <!-- comment -->
+                            {% include comments.html %}
+                        </div>
+                    </div>
+
+<script type="text/javascript">
+ $(function(){
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 750)
+            $('#go-to').show();
+        else
+            $('#go-to').hide();
+    });
+    $('#go-top').click(function() {
+        $('html, body').animate({scrollTop:$('#toTop').offset().top}, 800);
+    });
+    $('#go-bottom').click(function() {
+        $('html, body').animate({scrollTop:$('#toFoot').offset().top}, 800);
+    });
+     })     
+</script>
+ <style type="text/css">
+    div.go-to {
+    display: none;
+   
+    z-index: 999999;
+    position: fixed;
+    bottom: 113px;
+    left: 90%;
+    margin-left: 40px;
+    width: 38px;
+    cursor: pointer;
+     }
+    #go-top-button,#go-top-bottom {
+     opacity: 0.5;
+    }
+    #go-top-button:hover,#go-top-bottom:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+</style>
+    <div id="go-to" class="go-to">
+    <div class="btn-group">
+        <button id="go-top-button"  type="button" class="btn btn-success btn-sm" >
+            <span id="go-top" class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div class="btn-group">
+      <button id="go-top-bottom"  type="button" class="btn btn-warning btn-sm" >
+            <span id='go-bottom' class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+        </button>
+    </div> 
+    </div>
+                     
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

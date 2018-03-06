@@ -1,0 +1,11 @@
+{% if site.uyan %}
+<div id="uyan_frame"></div>
+<script>
+	(function() {
+		var d = document, s = d.createElement('script');
+		s.src = '//v2.uyan.cc/code/uyan.js?uid={{site.uyan.uid}}';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+{% endif %}

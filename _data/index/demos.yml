@@ -1,0 +1,82 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: AngularJs1.x
+  i18n: AngularJs1.x
+  gh_user: wiootk
+  repo: angularDemo 
+  url:
+  img: /static/assets/img/icon/angular.jpg
+  desc: AngularJs1.x+bootstrap+grulp+requrieJs
+
+- name: ReactJs
+  i18n: ReactJs
+  gh_user: wiootk
+  repo: reactDemo
+  url:
+  img: /static/assets/img/icon/react.jpg
+  desc: ReactJs+ReactRouter+Redux+gulp 
+  
+- name: Vue2
+  i18n: Vue2
+  gh_user: wiootk
+  repo: vue2demo
+  url:
+  img: /static/assets/img/icon/vue.jpg
+  desc: Vue2+VueRouter+VueX+karma+webpack
+  
+- name: Koa2
+  i18n: Koa2
+  gh_user: wiootk
+  repo: Koa2Demo
+  url: 
+  img: /static/assets/img/icon/koa.jpg
+  desc: koa2+mysql
+  
+- name: SSM
+  i18n: SSM
+  gh_user: wiootk
+  repo: ssmDemo
+  url:
+  img: /static/assets/img/icon/ssm.jpg
+  desc: Spring+SpringMVC+MyBaties
+  
+- name: springData
+  i18n: springData
+  gh_user: wiootk
+  repo: springDataDemo
+  url:
+  img: /static/assets/img/icon/java.jpg
+  desc: SpringMVC+SpringDataJPA+Hibernate
+  
+- name: springCloud
+  i18n: springCloud
+  gh_user: wiootk
+  repo: springCloudDemo
+  url:
+  img: /static/assets/img/icon/cloud.jpg
+  desc: springCloud+SpringData+myBaties+koa2
+
+- name: springBoot
+  i18n: springBoot
+  gh_user: wiootk
+  repo: springBootDemo
+  url:
+  img: /static/assets/img/icon/springBoot.jpg
+  desc: SpringBoot+SpringDataJpa+SpringSecurity+thymeleaf
+  
+- name: WEEX
+  i18n: WEEX
+  gh_user: wiootk
+  repo: weexDemo
+  url:
+  img: /static/assets/img/icon/weex.jpg
+  desc: weex+Vue2.0+VueRouter+VueX+redux+BUI-Weex
+  
+- name: ReactNative
+  i18n: ReactNative
+  gh_user: wiootk
+  repo: reactNativeDemo
+  url: 
+  img: /static/assets/img/icon/reactNative.jpg
+  desc: ReactNative+redux+react-navigation

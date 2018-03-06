@@ -1,0 +1,1 @@
+java -jar indexer-cli-5.1.1.jar -u nexus-maven-repository-index.gz -d indexer

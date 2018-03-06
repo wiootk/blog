@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-metadata
+.idea
+.DS_Store
+node_modules
+npm-debug.log
+/_posts/机器学习/rt
+/static/img/back/gitblit-1.8.0.zip
+/rt

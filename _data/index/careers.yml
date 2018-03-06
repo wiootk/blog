@@ -1,0 +1,29 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: 山东大成软件有限公司
+    i18n: 山东大成软件有限公司
+  desc:
+    detail: 前端、后端系统开发维护
+    i18n: 前端、后端系统开发维护
+  date:
+    detail: 2015.3-至今
+    i18n: 2015.3-至今
+  job:
+    detail: 程序员
+    i18n: 程序员
+  icon: fa-plus-square
+
+#- name:
+#    detail: Company B
+#    i18n: company_b
+#  desc:
+#    detail: I worked at Company B ...
+#    i18n: company_b_desc
+#  date:
+#    detail: Jun. 2015
+#    i18n: company_b_date
+#  job:
+#    detail: Full Stack Developer
+#    i18n: company_b_job
+#  icon: fa-plus-square

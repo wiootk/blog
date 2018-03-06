@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: AngularJs1.X,Vue2, ReactJS,nodeJS,  koa2, ssm, springDataJpa, springBoot,springCloud,WEEX,ReactNative,Bootstrap
+percentage: 80		  , 	65, 	  25,	  30, 	45,	 60, 			     80,			   40,			   40,	30,		    25,			 60
